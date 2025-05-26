@@ -74,7 +74,7 @@ Teste das Projekt direkt im Browser mit Wokwi:
 - **✂️ Cut the Wire:**  
   In diesem Modus wird eine Bombe zunächst scharf gemacht (durch längeres Drücken einer Taste). Nach dem Scharfschalten läuft ein Countdown – die Spieler müssen herausfinden und den richtigen Draht durchtrennen, um die Bombe zu entschärfen.  
   Es sind vier Drähte vorhanden, aber nur einer davon ist korrekt (die richtige Farbe/Klemme ist vorher festgelegt). Wird ein Draht durchtrennt, prüft das System:  
-  
+
   - **Richtiger Draht:** Die Bombe wird sofort entschärft, das Team gewinnt.
 
   - **Falscher Draht:** Die Zeit läuft schneller ab (Speed-Faktor erhöht sich), das Spiel wird hektischer. Nach mehreren Fehlversuchen läuft die Zeit extrem schnell.
@@ -88,6 +88,30 @@ Teste das Projekt direkt im Browser mit Wokwi:
 
 Alle Texte und Menüeinträge findest du zentral in `lang.h`.  
 Die Spielmodi sind modular als eigene `.ino`-Dateien organisiert – ideal zum Erweitern.
+
+---
+
+## ✅ ToDo / Roadmap
+
+- ✅ Grundfunktionen: Spielmodi „Search & Destroy“, „Sabotage“, „Domination“, „Cut the Wire“
+- 🟡 Fehlerbeseitigung: Cut the Wire Modus
+- ⏳ Mehrsprachigkeit / Sprachdateien
+- ⏳ Teileliste (vollständige Übersicht aller benötigten Komponenten)
+- ⏳ Anschlussplan (Schaltplan und Aufbauanleitung)
+- ⏳ Code-Bereinigung & Vereinfachung
+- ⏳ Modularisierung der Spielmodi (bessere Trennung im Code)
+- ⏳ Detaillierte Dokumentation der Funktionen im Code
+- ⏳ Screenshots / Fotos vom fertigen Aufbau
+- ⏳ Erweiterung: Zusätzliche Spielmodi (z.B. King of the Hill, Rush, etc.)
+- ⏳ Optionale Bluetooth-/WLAN-Anbindung für Steuerung/Monitoring
+- ⏳ Sound- und LED-Effekte verbessern/erweitern
+- ⏳ Logging & Analytics (z.B. Speicherung der Spielergebnisse)
+- ⏳ API-Anbindung für externe Tools/Scraper
+- ⏳ Web- oder App-Frontend für Einstellungen/Live-Monitoring
+
+
+🟡 in Arbeit | 🔄 in Überarbeitung | 🧪 in Testphase | ⚠️ bekanntes Problem | ⏳ geplant | ⬜️ Noch offen | ✅ Erledigt
+
 
 ---
 
