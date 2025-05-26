@@ -52,10 +52,35 @@ Teste das Projekt direkt im Browser mit Wokwi:
 
 ## 🎮 Spielmodi Übersicht
 
-- **💣 Search & Destroy:** Bombe legen & entschärfen
-- **🛠️ Sabotage:** Ziel sabotieren & verteidigen
-- **🏁 Domination:** Zonenbesetzung mit Timer
-- **✂️ Cut the Wire:** Drahtfarbenrätsel
+- **💣 Search & Destroy (Sabotage):**  
+  Zwei Teams treten gegeneinander an: Das angreifende Team muss die Bombe am Zielort scharf machen (entweder durch Passworteingabe oder längeres Tastendrücken). Sobald die Bombe gelegt ist, läuft ein Countdown bis zur Explosion. Das verteidigende Team muss die Bombe innerhalb dieser Zeit entschärfen – je nach Einstellung ebenfalls per Passwort oder Tastendruck. Gelingt die Entschärfung, kann die Bombe erneut aktiviert werden, solange die Spielzeit läuft. Läuft der Countdown ab, gewinnt das Angreifer-Team. LEDs, Display und Sounds geben jederzeit Rückmeldung zum Spielstatus.
+
+- **🛠️ Sabotage:**  
+  In diesem Modus muss das Angreifer-Team eine Bombe an einem Zielort scharf machen, während das Verteidiger-Team versucht, dies zu verhindern.  
+  Nach dem Start läuft eine Gesamtspielzeit. Die Angreifer können die Bombe entweder durch Passworteingabe oder längeres Drücken einer Taste scharf machen. Ist die Bombe scharf, startet ein separater Countdown (Explosions-Timer).  
+  Die Verteidiger müssen nun die Bombe entschärfen, bevor der Countdown abläuft. Auch die Entschärfung kann – je nach Einstellung – per Passwort oder Tastendruck erfolgen.  
+  Gelingt die Entschärfung, startet das Spiel von vorn und die Angreifer können einen neuen Versuch unternehmen, solange die Gesamtspielzeit nicht abgelaufen ist.  
+  Läuft der Countdown aus, bevor entschärft wurde, explodiert die Bombe und die Angreifer gewinnen die Runde. LEDs und Sounds signalisieren den aktuellen Status. Das Display zeigt Zeit und Statusmeldungen an.  
+
+
+- **🏁 Domination:**  
+  Im Domination-Modus kämpfen zwei Teams (Rot & Grün) um die Kontrolle einer zentralen Zone.  
+  Das Spiel läuft über eine festgelegte Zeit.  
+  Beide Teams können die Zone erobern, indem sie eine Taste gedrückt halten (Team Rot = Taste D, Team Grün = Taste C), solange die Zone neutral ist. Sobald ein Team die Zone eingenommen hat, beginnt für dieses Team ein Timer zu laufen – je länger das Team die Zone hält, desto mehr Punkte (Zeit) sammelt es.  
+  Die Zone kann jederzeit vom anderen Team neutralisiert werden, indem eine Taste erneut gedrückt gehalten wird. Danach kann die Zone von einem Team neu besetzt werden.  
+  Das Display zeigt abwechselnd die verbleibende Spielzeit sowie den aktuellen Status der Zone (neutral, rot oder grün) und wie lange das Team die Zone gehalten hat. LEDs und Sound geben zusätzlich Feedback.  
+  Am Ende gewinnt das Team, das die Zone insgesamt am längsten gehalten hat. Das Ergebnis wird angezeigt, danach kann eine neue Runde gestartet oder zum Menü zurückgekehrt werden.
+
+- **✂️ Cut the Wire:**  
+  In diesem Modus wird eine Bombe zunächst scharf gemacht (durch längeres Drücken einer Taste). Nach dem Scharfschalten läuft ein Countdown – die Spieler müssen herausfinden und den richtigen Draht durchtrennen, um die Bombe zu entschärfen.  
+  Es sind vier Drähte vorhanden, aber nur einer davon ist korrekt (die richtige Farbe/Klemme ist vorher festgelegt). Wird ein Draht durchtrennt, prüft das System:  
+  
+  - **Richtiger Draht:** Die Bombe wird sofort entschärft, das Team gewinnt.
+
+  - **Falscher Draht:** Die Zeit läuft schneller ab (Speed-Faktor erhöht sich), das Spiel wird hektischer. Nach mehreren Fehlversuchen läuft die Zeit extrem schnell.
+  Wenn die Zeit abläuft, bevor der richtige Draht durchtrennt wurde, explodiert die Bombe und das Spiel ist verloren.  
+  LEDs und Soundeffekte begleiten die Aktion, das Display zeigt die verbleibende Zeit im Sekunden- und Millisekunden-Format.
+
 
 ---
 
