@@ -43,7 +43,8 @@ und bietet zahlreiche Features wie LCD-Anzeige, Keypad, LED-Signalisierung, Sire
 ## 🧪 Live-Demo
 
 Teste das Projekt direkt im Browser mit Wokwi:  
-[![Wokwi Simulation](https://user-images.githubusercontent.com/7688291/184546104-62b8d383-8be7-48c5-a22a-51dfbe7a5d47.png)](https://wokwi.com/projects/431928489736753153)
+
+![Wokwi Simulation](screenshot.png)
 
 👉 [StrikeUnit online testen (Wokwi.com)](https://wokwi.com/projects/431928489736753153)
 
