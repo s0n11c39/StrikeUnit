@@ -5,6 +5,8 @@ Das System unterstützt mehrere Spielmodi (💣 Search & Destroy, 🛠️ Sabota
 und bietet zahlreiche Features wie LCD-Anzeige, Keypad, LED-Signalisierung, Sirene und MOSFET-gesteuerte Ausgänge.
 
 ---
+![Wokwi Simulation](screenshot.png)
+---
 
 ## ✨ Features
 
@@ -43,8 +45,6 @@ und bietet zahlreiche Features wie LCD-Anzeige, Keypad, LED-Signalisierung, Sire
 ## 🧪 Live-Demo
 
 Teste das Projekt direkt im Browser mit Wokwi:  
-
-![Wokwi Simulation](screenshot.png)
 
 👉 [StrikeUnit online testen (Wokwi.com)](https://wokwi.com/projects/431928489736753153)
 
